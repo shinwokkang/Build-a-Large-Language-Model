@@ -6,6 +6,9 @@
 
 ## 1. 🖼️ Figure 1.9 완벽 해부: LLM 탄생의 3단계 (The 3 Stages)
 
+<img width="649" height="345" alt="Figure 1 9" src="https://github.com/user-attachments/assets/7b74e2e9-280f-456e-b267-db2cbbbcf918" />
+
+
 첨부해주신 Figure 1.9는 우리가 파이토치(PyTorch) 코드를 한 줄 한 줄 짜며 완성해 나갈 전체 로드맵입니다. 마치 빈 땅에 설계도를 그리고, 건물을 올리고, 인테리어를 하는 과정과 같습니다.
 
 ### 🏗️ STAGE 1: 뼈대 만들기 (Building an LLM)
