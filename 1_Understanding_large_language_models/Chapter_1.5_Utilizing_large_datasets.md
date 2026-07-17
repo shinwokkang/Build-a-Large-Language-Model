@@ -6,6 +6,9 @@
 
 ## 1. 📊 Table 1.1 완벽 해부: GPT-3는 도대체 무엇을 읽었을까?
 
+<img width="1262" height="914" alt="image" src="https://github.com/user-attachments/assets/e0b1c85a-70f2-44e6-8181-94373979fc11" />
+
+
 초기 챗GPT(ChatGPT)의 뼈대가 되었던 전설적인 모델, **GPT-3의 사전 학습(Pretraining) 식단표**를 분석해 봅시다. 첨부해 주신 표(Table 1.1)를 보면 5가지 데이터 소스가 나옵니다.
 
 1. **CommonCrawl (커먼 크롤, 60% 비중)**:
