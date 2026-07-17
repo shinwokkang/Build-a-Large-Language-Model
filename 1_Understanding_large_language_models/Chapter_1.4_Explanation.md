@@ -11,6 +11,9 @@
 
 ## 2. 🖼️ Figure 1.4 완벽 해부: 트랜스포머의 두 개의 심장 (인코더와 디코더)
 
+<img width="1356" height="972" alt="image" src="https://github.com/user-attachments/assets/393381a2-9187-49be-811a-649fed24e73d" />
+
+
 트랜스포머의 원조 모델(오리지널 트랜스포머)은 크게 두 개의 부품으로 나뉘어 있습니다. 바로 **인코더(Encoder)**와 **디코더(Decoder)**입니다. 책의 Figure 1.4는 번역을 수행하는 과정을 보여줍니다. 이를 완전히 밑바닥부터 분해해 보겠습니다.
 
 ### 💡 완전 기초: 임베딩(Embedding)이란 무엇인가?
@@ -54,6 +57,9 @@
 
 ## 4. 🖼️ Figure 1.5 완벽 해부: BERT (인코더파) vs GPT (디코더파)
 
+<img width="1294" height="810" alt="image" src="https://github.com/user-attachments/assets/bbbccccb-62e0-4647-bf95-3818ddb912b5" />
+
+
 오리지널 트랜스포머(번역기)가 발표된 후, 연구자들은 깨달았습니다. 
 *"잠깐, 이거 굳이 번역기처럼 인코더+디코더 세트로 안 쓰고 반쪽만 떼어내서 써도 엄청난 능력을 발휘하겠는데?"*
 
@@ -77,6 +83,9 @@
 ---
 
 ## 5. 🖼️ Figure 1.6 완벽 해부: 제로샷(Zero-shot)과 퓨샷(Few-shot)
+
+<img width="1312" height="630" alt="image" src="https://github.com/user-attachments/assets/5c442aa5-123f-43c8-94d7-ba61b8dfede7" />
+
 
 GPT 같은 모델은 글을 짓는 데 특화되어 있지만, 놀랍게도 이 '글 짓기' 능력을 응용하면 세상의 거의 모든 문제를 풀 수 있습니다.
 
