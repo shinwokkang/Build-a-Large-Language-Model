@@ -8,6 +8,9 @@
 
 ## 1. 🖼️ Figure 2.2 완벽 해부: 임베딩(Embedding)이란 무엇인가?
 
+<img width="655" height="341" alt="Figure 2 2" src="https://github.com/user-attachments/assets/a3a25912-afdd-4336-a416-43ecbbb6757b" />
+
+
 "Embedding(임베딩)"이라는 단어는 직역하면 '박아 넣다, 묻어두다'라는 뜻입니다. 기계 학습에서는 **비정형 데이터(텍스트, 이미지, 소리 등)를 컴퓨터가 계산할 수 있는 연속적인 숫자들의 배열, 즉 '벡터(Vector) 공간'에 박아 넣는 행위**를 말합니다.
 
 Figure 2.2를 보면 그 개념이 아주 직관적으로 나타나 있습니다.
@@ -20,6 +23,9 @@ Figure 2.2를 보면 그 개념이 아주 직관적으로 나타나 있습니다
 ---
 
 ## 2. 🖼️ Figure 2.3 완벽 해부: 단어의 '의미'를 수학적인 '거리'로!
+
+<img width="667" height="452" alt="Figure 2 3" src="https://github.com/user-attachments/assets/81e75560-ecc6-4bd9-9853-5c9daa272e8b" />
+
 
 그렇다면 그냥 단어에 아무 숫자나 막 부여하면 될까요? (예: 사과=1, 바나나=2, 비행기=3)
 절대 안 됩니다! 숫자에 단순한 꼬리표를 다는 수준을 넘어서, **숫자 자체에 단어의 '의미(Meaning)'를 담아내야** 합니다.
