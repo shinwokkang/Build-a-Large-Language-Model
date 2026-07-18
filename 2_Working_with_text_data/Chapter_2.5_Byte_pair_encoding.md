@@ -79,6 +79,9 @@ print(strings)
 
 ## 4. 🖼️ BPE의 마법 해부하기 (Figure 2.11 해설)
 
+<img width="625" height="292" alt="Figure 2 11" src="https://github.com/user-attachments/assets/d0d8947e-8b75-4aef-bf8e-0c4da2142fa6" />
+
+
 그림 2.11과 Exercise 2.1은 BPE가 미등록 단어(OOV)를 어떻게 쪼개어 먹는지 직관적으로 보여줍니다.
 
 * 타겟 단어: `"Akwirw_ier"` (완전한 외계어)
