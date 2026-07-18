@@ -80,6 +80,9 @@ for i in range(1, context_size+1):
 
 ## 3. 🖼️ 파이토치(PyTorch)의 꽃: 텐서(Tensor)와 데이터 로더 (Figure 2.13)
 
+<img width="648" height="314" alt="Figure 2 13" src="https://github.com/user-attachments/assets/72cc1238-9af4-4a40-a2a7-4d2ead7eb1b7" />
+
+
 위에서는 1차원 배열(리스트)로 퀴즈를 하나 만들었습니다. 하지만 실전에서 수십억 개의 퀴즈를 CPU로 하나하나 풀게 하면 학습에만 100년이 걸립니다. 우리는 엔비디아(NVIDIA) GPU의 막강한 병렬 처리 능력을 써야 합니다.
 
 * **텐서 (Tensor)**: GPU가 연산할 수 있도록 고안된 고성능 다차원 배열(행렬)입니다.
@@ -165,6 +168,9 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256,
 ---
 
 ## 6. 🖼️ 창문 크기(max_length)와 보폭(stride)의 마법 (Figure 2.14)
+
+<img width="642" height="458" alt="Figure 2 14" src="https://github.com/user-attachments/assets/da21b71b-0126-42f0-a807-40dfdf8f5e7b" />
+
 
 방금 만든 데이터 로더를 이용해 `stride`의 의미를 시각적으로 살펴보겠습니다. (그림 2.14)
 
