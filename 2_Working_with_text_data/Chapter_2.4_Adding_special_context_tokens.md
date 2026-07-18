@@ -8,6 +8,9 @@
 
 ## 1. 🖼️ 특수 토큰의 도입 (Figure 2.9 해설)
 
+<img width="653" height="421" alt="Figure 2 9" src="https://github.com/user-attachments/assets/4952e25e-b4cb-4fe4-a8da-bb4ea50d2425" />
+
+
 우리가 평소에 쓰는 언어에는 단어만 있는 것이 아닙니다. 기계에게 '상황'을 알려주는 특별한 기호가 필요합니다. 그림 2.9는 기존 단어 사전(`brown`, `dog`, `fox`...)의 맨 마지막에 파란색으로 두 개의 새로운 특수 기호를 추가하는 모습을 보여줍니다.
 
 1. **`<|unk|>` 토큰 (Unknown)**: 
@@ -18,6 +21,9 @@
 ---
 
 ## 2. 🖼️ 독립적인 텍스트 병합하기 (Figure 2.10 해설)
+
+<img width="639" height="393" alt="Figure 2 10" src="https://github.com/user-attachments/assets/99b347e3-f033-4325-83f4-b6b606a0df91" />
+
 
 LLM을 훈련시킬 때는 책 한 권만 읽히는 것이 아니라, 인터넷에 있는 수천만 개의 위키백과 문서와 뉴스 기사들을 **일렬로 쭉 이어 붙여서(Concatenate)** 거대한 하나의 문자열로 만들어 모델에게 먹여줍니다.
 
