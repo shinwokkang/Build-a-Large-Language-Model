@@ -8,6 +8,9 @@
 
 ## 1. 🖼️ 단어 사전(Vocabulary) 구축 원리 (Figure 2.6 해설)
 
+<img width="662" height="471" alt="Figure 2 6" src="https://github.com/user-attachments/assets/a8e052f5-04f6-4120-9a36-7be2d92e01bd" />
+
+
 가장 먼저 해야 할 일은 우리가 가진 모든 텍스트 데이터를 분석하여 **"이 세상에 어떤 단어들이 존재하는가?"**를 규정하는 **단어 사전(Vocabulary)**을 만드는 것입니다.
 
 그림 2.6을 보면 단어 사전을 만드는 과정이 직관적으로 나와 있습니다.
@@ -47,6 +50,11 @@ for i, item in enumerate(vocab.items()):
 ---
 
 ## 2. 🖼️ 인코딩(Encoding)과 디코딩(Decoding)의 개념 (Figure 2.7 & 2.8)
+
+<img width="649" height="468" alt="Figure 2 7" src="https://github.com/user-attachments/assets/d5a69107-de72-420c-a4de-9afd7ab34ffd" />
+
+<img width="652" height="400" alt="Figure 2 8" src="https://github.com/user-attachments/assets/4244bc3b-a074-4d8d-90e1-58dfadddbc9c" />
+
 
 단어 사전을 완성했다면 이제 통역을 할 차례입니다.
 * **인코딩 (Encode)**: 사람이 읽는 **문자열 텍스트** ➡️ 기계가 읽는 **숫자(Token IDs)** 로 변환하는 과정입니다. 모델에게 데이터를 먹일 때 사용합니다. (Figure 2.7)
