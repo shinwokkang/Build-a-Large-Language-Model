@@ -8,6 +8,9 @@
 
 ## 1. 🧠 왜 '임베딩(Embedding)'이 필수적인가? (Figure 2.15 해설)
 
+<img width="685" height="510" alt="Figure 2 15" src="https://github.com/user-attachments/assets/7c244fa0-c44f-45c2-b43b-8b25872ff66c" />
+
+
 그림 2.15를 보면 텍스트가 토큰 ID를 거쳐 최종적으로 네모난 칸 여러 개(벡터)로 변환된 뒤에야 비로소 GPT 모델 안으로 들어갑니다. 그렇다면 굳이 왜 번거롭게 정수를 실수 벡터로 또 바꿔야 할까요?
 
 1. **정수(Discrete)의 한계**: 
@@ -64,6 +67,9 @@ tensor([[ 0.3374, -0.1778, -0.1690],  <-- 0번 단어의 벡터
 ---
 
 ## 3. 🖼️ 임베딩은 사실 거대한 '룩업 테이블(Lookup Table)'이다 (Figure 2.16)
+
+<img width="646" height="390" alt="Figure 2 16" src="https://github.com/user-attachments/assets/2451021c-1497-4466-a8e4-1462ac626045" />
+
 
 이제 만들어진 임베딩 계층에 실제 단어 ID를 집어넣어 보겠습니다.
 
