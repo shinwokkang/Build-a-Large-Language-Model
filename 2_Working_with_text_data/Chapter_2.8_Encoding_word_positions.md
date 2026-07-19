@@ -38,6 +38,9 @@
 
 ## 3. 💻 코드로 보는 절대 위치 임베딩 생성과 결합 (Figure 2.18 해설)
 
+<img width="655" height="241" alt="Figure 2 18" src="https://github.com/user-attachments/assets/e831696b-f4f0-4b4d-8f46-4ca5b1b4c7cc" />
+
+
 먼저 앞선 2.6절과 2.7절의 코드를 합쳐서, 단어 임베딩 텐서를 뽑아내는 과정까지 빠르게 복기해 봅시다.
 
 ### 📝 코드 1: 단어 임베딩 텐서 준비 (복습)
@@ -140,6 +143,9 @@ print(input_embeddings.shape)
 ---
 
 ## 4. 🚀 전체 데이터 전처리 파이프라인의 완성 (Figure 2.19 및 Chapter 요약)
+
+<img width="696" height="697" alt="Figure 2 19" src="https://github.com/user-attachments/assets/a085b3ff-19be-4047-9647-074d802f4941" />
+
 
 그림 2.19는 길고 길었던 2장의 여정을 한 장의 그림으로 아름답게 요약해 줍니다. 인간의 텍스트가 어떻게 기계의 혈관(Transformer)으로 주입되는지 그 전체 파이프라인이 완성되었습니다.
 
